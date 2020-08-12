@@ -9,6 +9,9 @@ function App() {
     <div className="App">
       <header className="App-header">
 
+
+
+
         <ul>
           <li>
             <Link to="/"> Page One </Link>
@@ -22,12 +25,13 @@ function App() {
 
         <Switch>
 
-          <Route exact path="/page-two">
-            <PageTwo />
+          <Route exact path="/">
+
+            <PageOne />
           </Route>
 
-          <Route path="/">
-            <PageOne />
+          <Route path="/page-two">
+            <PageTwo />
           </Route>
 
         </Switch>
