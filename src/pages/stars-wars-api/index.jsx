@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 
-const PageTwo = () => {
+const StarsWarsApi = () => {
     const [character, setCharacter] = useState([])
 
     const getCharacter = () => {
@@ -27,4 +27,4 @@ const PageTwo = () => {
     )
 }
 
-export default PageTwo
+export default StarsWarsApi

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 
-const PageOne = () => {
+const RickAndMortyApi = () => {
     const [character, setCharacter] = useState([])
 
     const getCharacter = () => {
@@ -28,4 +28,4 @@ const PageOne = () => {
     )
 }
 
-export default PageOne
+export default RickAndMortyApi

@@ -1,8 +1,8 @@
-import PageOne from '../../pages/page-one'
-import PageTwo from '../../pages/page-two'
+import RickAndMortyApi from '../../pages/rick-and-morty-api'
+import StarsWarsApi from '../../pages/stars-wars-api'
 
 
 export const routes = [
-    { path: "/", title: "Página Um", component: PageOne },
-    { path: "/page-two", title: "Página Dois", component: PageTwo }
+    { path: "/", title: "Rick and Morty", component: RickAndMortyApi },
+    { path: "/page-two", title: "Stars Wars", component: StarsWarsApi }
 ]
